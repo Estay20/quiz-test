@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 22px;
+}
+
+.meta {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  color: #555;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #fff;
+}
+
+.options label:hover {
+  background: #f0f6ff;
+  border-color: #4a90e2;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e4e7ec;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #d5dae3;
+}
+
+.btn-primary {
+  background: #4a90e2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #357bd8;
+}
+
+.btn-accent {
+  background: #22c55e;
+  color: white;
+}
+
+.btn-accent:hover {
+  background: #1da851;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
+
+#result-section {
+  text-align: center;
+}
+
+#result-summary {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.review-options {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-options div {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  transition: 0.2s;
+}
+
+.correct {
+  background: #dcfce7;
+  border: 1px solid #22c55e;
+}
+
+.wrong {
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+}
+
+.review-options div:hover {
+  transform: scale(1.01);
+}

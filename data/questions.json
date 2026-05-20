@@ -1,0 +1,59 @@
+{
+  "title": "Основы JavaScript",
+  "timeLimitSec": 300,
+  "passThreshold": 0.7,
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Какой тип данных у значения null?",
+      "options": ["object", "null", "undefined", "number"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "text": "Как объявить константу в JavaScript?",
+      "options": ["let x", "var x", "const x", "static x"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "Какой метод добавляет элемент в конец массива?",
+      "options": ["push()", "pop()", "shift()", "concat()"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "text": "Что делает оператор === ?",
+      "options": [
+        "Сравнение без типов",
+        "Присваивание",
+        "Строгое сравнение",
+        "Сложение"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "text": "Какой цикл используется для перебора массива?",
+      "options": ["for", "if", "switch", "try"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "text": "Что такое NaN?",
+      "options": [
+        "Null and None",
+        "Not a Number",
+        "New array number",
+        "Negative and Null"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "text": "Какой тип языка JavaScript?",
+      "options": ["Компилируемый", "Интерпретируемый", "Ассемблер", "Машинный код"],
+      "correctIndex": 1
+    }
+  ]
+}
